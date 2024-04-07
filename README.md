@@ -20,6 +20,7 @@
 1. 首先，确保已经安装了 MySQL 8.0.28 版本的数据库。
 2. 打开项目中的 `application.yml` 文件。
 3. 在配置文件中，根据你的数据库配置信息，修改以下属性：
+   
    ```yaml
    datasource:
        driver-class-name: com.mysql.cj.jdbc.Driver
@@ -34,6 +35,7 @@
 1. 确保已经安装了 Maven，并且配置了环境变量。
 2. 在命令行中进入项目根目录。
 3. 执行以下命令安装项目所需的依赖：
+   
     ```bash
    mvn clean install
     ```
@@ -42,7 +44,8 @@
 
 1. 确保已经安装了 Redis，并且启动了 Redis 服务。
 2. 如果 Redis 使用了非默认配置（例如非默认端口），请确保在项目的配置文件中进行相应的修改。
-    ```yaml
+    
+   ```yaml
    redis:
        database: 1
        host: localhost
