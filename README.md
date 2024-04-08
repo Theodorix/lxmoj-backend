@@ -9,9 +9,9 @@
 
 基于 Vue3+Spring Boot 构建的前后端分离在线编程学习和评测平台，采用单体应用服务架构。
 
-后端项目地址：
+后端项目地址：https://github.com/Theodorix/lxmoj-backend
 
-前端项目地址：
+前端项目地址：https://github.com/Theodorix/lxmoj-frontend
 
 ### 启动项目
 
